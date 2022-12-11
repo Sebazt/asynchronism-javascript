@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callbacks/challenge.js"
+    "callback": "node src/callbacks/challenge.js",
+    "promises": "node src/promesas/challenge.js",
+    "async": "node src/async/index.js"
   },
   "keywords": [
     "Javascript"
@@ -12,6 +14,8 @@
   "author": "Sebastian Londoño juan.londono29@udea.edu.co",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type":"module"
 }
