@@ -6,7 +6,8 @@
   "scripts": {
     "callback": "node src/callbacks/challenge.js",
     "promises": "node src/promesas/challenge.js",
-    "async": "node src/async/index.js"
+    "async": "node src/async/index.js",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [
     "Javascript"
@@ -17,5 +18,8 @@
     "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
